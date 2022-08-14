@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+        int ch='A',ch1='a',k,n=5;
+        for(ch=1;ch<=n;ch++)
+        {
+            for(k=1;k<=n;k++)
+            {
+                printf("");
+             }
+             for(ch1=1;ch1<=ch;ch1++)
+             {
+                 printf("%c%c",&ch,&ch1);
+             }
+             printf("\n");
+        }
+
+    return 0;
+}
+
+
